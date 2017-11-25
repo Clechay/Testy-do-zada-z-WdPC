@@ -11,3 +11,5 @@ Jeżeli nie masz uprawnień do uruchomienia skryptu `./test.sh`, wykonaj `chmod 
 Aby usunąć jeden z testów, usuń jego plik `*.in`
 
 Aby wygenerować test, zapisz w katalogu testy wejście dla programu z rozszerzeniem `.in` i uruchom `./gen_test.sh`. Alternatywnie, ręcznie wykonaj `./bin_correct < tests/nazwa_testu.in > tests/nazwa_testu.out_correct`
+
+`bin_correct` jest skompilowanym rozwiązaniem które otrzymało 10/10pkt
